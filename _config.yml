@@ -2,30 +2,30 @@
 baseurl: ""
 
 # Blog Setting
-blog: True
+blog: False
 
 # Language of the website
 lang: en
 
 # Search engine optimization settings
-title: Grape Academic Theme
-tagline: A jekyll theme for academic portfolios
-description: The demonstration page for the Grape Academic Theme, a jekyll theme for academic portfolios based on the Grape Theme.
-author: Christoph Jabs (chrjabs)
-twitter:
-  username: chrjabs
-  card: A jekyll theme for academic portfolios
+title: JB Portfolio
+tagline: a personal portfolio site
+description: a personal portfolio site
+author: Joshua Bas
+# twitter:
+#   username: chrjabs
+#   card: A jekyll theme for academic portfolios
 logo: /assets/img/smile.png
-social:
-  name: Christoph Jabs
-  links:
-    - https://twitter.com/chrjabs
-    - https://github.com/chrjabs
-locale: en_GB
+# social:
+#   name: Christoph Jabs
+#   links:
+#     - https://twitter.com/chrjabs
+#     - https://github.com/chrjabs
+locale: en_US
 
 # Page Settings
 theme_settings:
-  title: Grape Academic Theme
+  title: JB Portfolio
 
   experience_title: EXPERIENCE
   interests_title: RESEARCH INTERESTS
