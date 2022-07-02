@@ -1,29 +1,41 @@
-image: assets/img/smile.png
-username: Christoph Jabs
-description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
-webpage: https://chrjabs.github.io
+image: assets/img/me.png
+username: Joshua Bas
+description: Heyo! I am a recent graduate from CMU and interested in that middle-ground between software and hardware, although lately I've been taking on hardware projects. I've had experience working with C/C++, Python, and some other high-level programming languages, and on the other side of the abstraction, I'm also developing my skills in ARM Assembly, RISC-V Assembly, and reading ISAs. I think FPGA's are pretty cool, and I get excited whenever I have the chance to use them. I've spent a summer and a semester honing my PCB design skills through a medical device internship, and I expect to continue to do so in future projects! 
+webpage: https://jbas.github.io
 experience:
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
+  - start: August 2021
+    end: Present
+    experience : SouthLake Christian Academy, AP Physics & AP Computer Science Principles
+  - start: June 2019
+    end: May 2020
+    experience : Audition Technology, Analog Engineer Intern
+  - start: August 2016
+    end: May 2020
+    experience : Carnegie Mellon University, B.S. in Electrical and Computer Engineering
 interests:
   - Interest 1
   - Interest 2
 skills: 
-  - skill: HTML5 & CSS
+  - skill: C/C++
+    value: 75
+  - skill: Python
+    value: 75
+  - skill: EagleCad
+    value: 75
+  - skill: Git/Github
     value: 85  # Percent value
 social:
-  email:  # Full email address, e.g. "sample@google.com"
+  email:  "joshua.n.bas@gmail.com" # Full email address, e.g. "sample@google.com"
   orcid: 
   scholar: 
   publons: 
   research_gate: 
   linkedin:  # Full URL 
-  github: chrjabs
+  github: JBas
   gitlab: 
-  bitbucket: chrjabs
+  bitbucket:
   google_plus:
-  twitter: chrjabs
+  twitter:
   youtube:
   facebook:
   instagram:
