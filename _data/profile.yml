@@ -12,9 +12,9 @@ experience:
   - start: August 2016
     end: May 2020
     experience : Carnegie Mellon University, B.S. in Electrical and Computer Engineering
-interests:
-  - Interest 1
-  - Interest 2
+# interests:
+#   - Interest 1
+#   - Interest 2
 skills: 
   - skill: C/C++
     value: 75

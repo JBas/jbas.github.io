@@ -41,7 +41,7 @@ paginate_path: "blog/page:num"
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: ['jekyll-paginate', 'jekyll/scholar', 'jekyll-seo-tag']
+plugins: ['jekyll-paginate', 'jekyll-seo-tag']
 bootstrap:
   assets: true
 

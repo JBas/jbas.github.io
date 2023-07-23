@@ -1,9 +1,23 @@
 ---
 layout: page
 ---
-{% include scripts/publications.html %}
+
 <div id="publications">
-  <section class="bg"></section>
-  <h1 class="title">{{ page.title }}</h1>
-  {% bibliography --group_by year --group_order descending %}
+    <section class="bg"></section>
+    <h1 class="title">{{ page.title }}</h1>
+    
+    {% for _ in site.data.publications %}
+        {% assign pub = _.publication %}
+        
+        <ul class="fa-ul">
+            <li><!-- <span class="fa-li"><i class="fas fa-file"></i></span> -->
+                <div class="title">{{ pub.article }}.</div>
+                <div class="author">{{ pub.author | markdownify}}.</div>
+                <div class="third-line">
+                    <a href="{{ pub.url }}">{{ pub.proceedings | strip}}.</a>
+                </div>
+            </li>
+        </ul>
+        
+    {% endfor %}
 </div>
